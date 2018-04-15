@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">JustUi</string>
+    <string name="x_login_phone_hint">手机号</string>
+    <string name="x_login_pwd_hint">密码</string>
+    <string name="x_login_btn">登&#8195;录</string>
+    <string name="x_login_forget">忘记密码?</string>
+    <string name="x_login_regist">立即注册</string>
+    <string name="x_regist_phone_hint">请输入手机号</string>
+    <string name="x_regist_code_hint">请输入验证码</string>
+    <string name="x_regist_pwd_hint">请输入密码</string>
+    <string name="x_regist_btn">注&#8195;册</string>
+    <string name="x_str1">取消原因</string>
+    <string name="x_str2">请告诉我们原因</string>
+    <string name="x_str3">让我们为您提供更好的服务</string>
+    <string name="x_str4">等待时间过长</string>
+    <string name="x_str5">联系不上司机</string>
+    <string name="x_str6">临时改变行程</string>
+    <string name="x_str7">司机找不到接车地点</string>
+    <string name="x_str8">其他原因</string>
+    <string name="x_str9">提交</string>
 </resources>
