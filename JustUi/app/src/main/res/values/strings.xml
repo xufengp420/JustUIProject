@@ -18,4 +18,49 @@
     <string name="x_str7">司机找不到接车地点</string>
     <string name="x_str8">其他原因</string>
     <string name="x_str9">提交</string>
+
+    <string name="x_str10">支付费用</string>
+    <string name="x_str11">(详情)</string>
+    <string name="x_str12">行程费用</string>
+    <string name="x_str13">超时等待费</string>
+    <string name="x_str14">优惠券</string>
+    <string name="x_str15">支付方式</string>
+    <string name="x_str16">账户余额</string>
+    <string name="x_str17">微信支付</string>
+    <string name="x_str18">支付宝支付</string>
+    <string name="x_str19">银行卡支付</string>
+    <string name="x_str20">更多支付方式</string>
+
+    <string name="x_str21">支付结果</string>
+    <string name="x_str22">订单已支付成功</string>
+    <string name="x_str23">评价司机</string>
+    <string name="x_str24">服务态度</string>
+    <string name="x_str25">驾驶技术</string>
+    <string name="x_str26">车内整洁</string>
+    <string name="x_str27">可写下更多对司机的评价哦</string>
+    <string name="x_str28">匿名提交</string>
+    <string name="x_str29">确认提交</string>
+
+    <string name="x_str30">保存</string>
+    <string name="x_str31">点击修改头像</string>
+    <string name="x_str32">性别:</string>
+    <string name="x_str33">手机号:</string>
+
+    <string name="x_str34">设置</string>
+    <string name="x_str35">修改密码</string>
+    <string name="x_str36">联系我们</string>
+    <string name="x_str37">关于</string>
+    <string name="x_str38">退出登录</string>
+
+    <string name="x_str49">我的钱包</string>
+    <string name="x_str39">钱包余额</string>
+    <string name="x_str40">充值</string>
+    <string name="x_str41">明细</string>
+    <string name="x_str42">元</string>
+    <string name="x_str43">▪ 专项余款（仅限于平台消费，不可体现）</string>
+    <string name="x_str44">▪ 充1000送200，多充多送</string>
+    <string name="x_str45">我的优惠券</string>
+    <string name="x_str46">兑换优惠券</string>
+    <string name="x_str47">开票</string>
+    <string name="x_str48">绑定银行卡</string>
 </resources>

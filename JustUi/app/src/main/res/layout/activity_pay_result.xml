@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="53dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="8dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:src="@mipmap/x_title_back" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/x_str21"
+            android:textColor="#003AA2"
+            android:textSize="17sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#dedede" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/x_pay_success" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/x_str22"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="10dp"
+        android:background="#f5f5f5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/x_str23"
+        android:textColor="#000"
+        android:textSize="21sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgHead"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="25dp"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/imgHead"
+            android:layout_alignTop="@+id/imgHead"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/imgHead"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="鲁师傅"
+                android:textColor="#3a3a3a"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="大众朗逸 粤B8909"
+                android:textColor="#686867"
+                android:textSize="12sp" />
+
+            <com.example.xufeng.justui.RatingBar
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                app:starCount="5"
+                app:starEmpty="@mipmap/x_pay_star_gray"
+                app:starFill="@mipmap/x_pay_star_orange"
+                app:starImageSize="40dp"
+                app:starPadding="20dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="30dp"
+            android:src="@mipmap/x_ic_call" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/x_pay_line" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/x_str24" />
+
+        <com.example.xufeng.justui.RatingBar
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            app:starCount="5"
+            app:starEmpty="@mipmap/x_pay_star_gray"
+            app:starFill="@mipmap/x_pay_star_orange"
+            app:starImageSize="40dp"
+            app:starPadding="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/x_str24" />
+
+        <com.example.xufeng.justui.RatingBar
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            app:starCount="5"
+            app:starEmpty="@mipmap/x_pay_star_gray"
+            app:starFill="@mipmap/x_pay_star_orange"
+            app:starImageSize="40dp"
+            app:starPadding="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/x_str24" />
+
+        <com.example.xufeng.justui.RatingBar
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            app:starCount="5"
+            app:starEmpty="@mipmap/x_pay_star_gray"
+            app:starFill="@mipmap/x_pay_star_orange"
+            app:starImageSize="40dp"
+            app:starPadding="20dp" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/x_result_edit"
+        android:gravity="left|top"
+        android:hint="@string/x_str27"
+        android:minHeight="90dp"
+        android:padding="5dp"
+        android:textSize="13sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/x_reduce_btn_bg"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/x_str29"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+
+</LinearLayout>

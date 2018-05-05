@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#efedf0"
+    android:padding="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/x_xcd_item_bg"
+        android:paddingBottom="15dp"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp">
+
+        <ImageView
+            android:id="@+id/headImg"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@mipmap/ic_launcher_round" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/headImg"
+            android:layout_alignTop="@+id/headImg"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/headImg"
+            android:gravity="center_vertical"
+            android:text="罗师傅"
+            android:textColor="#000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/textFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/headImg"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@mipmap/x_ic_from"
+            android:drawablePadding="3dp"
+            android:text="宝安区新安创业一路宝安中心站"
+            android:textColor="#141414"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textTo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textFrom"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@mipmap/x_ic_to"
+            android:drawablePadding="3dp"
+            android:text="南山大道1089号天宇大厦"
+            android:textColor="#141414"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textTo"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@mipmap/x_ic_time"
+            android:drawablePadding="3dp"
+            android:text="2018-03-09 17:00"
+            android:textColor="#727272"
+            android:textSize="14sp" />
+x
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/x_xcd_item_price_bg"
+            android:paddingBottom="3dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:paddingTop="3dp"
+            android:text="¥55.00"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textTo"
+            android:layout_marginRight="20dp"
+            android:text="已完成"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</LinearLayout>
